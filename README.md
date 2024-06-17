@@ -1,14 +1,13 @@
 # OneHub Engineering REST API
 
 ## Overview
-OneHub Engineering is a RESTful API built with Spring Boot. This project serves as the backend for managing employee data, providing endpoints for CRUD operations.
+OneHub Engineering is a RESTful API built with Spring Boot. This project serves as the backend for managing employee data, providing an endpoint for adding a new employee.
 
 ## Features
-- RESTful API endpoints for managing employees
+- RESTful API endpoint for managing employees
 - Validation of input data
 - Error handling
 - Integration with a database using Spring Data JPA
-- Unit and integration tests
 
 ## Technologies Used
 - Java 11
