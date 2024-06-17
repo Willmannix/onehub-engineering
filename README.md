@@ -15,7 +15,6 @@ OneHub Engineering is a RESTful API built with Spring Boot. This project serves 
 - **Spring Boot:** Utilized for rapid API development with minimal configuration, leveraging Spring's dependency injection and auto-configuration features.
 - **Spring Data JPA:** Integrated for easy implementation of data persistence and CRUD operations.
 - **H2 Database:** Employed as an in-memory database for development and testing purposes, ensuring lightweight and efficient data storage.
-- **Swagger:** Integrated Swagger for clear and interactive API documentation, facilitating ease of use for consumers.
 
 ## RESTful API Design
 
@@ -29,7 +28,6 @@ Our API is designed with simplicity and clarity in mind, adhering to RESTful pri
 Before you begin, ensure you have met the following requirements:
 - Java 11 installed
 - Maven installed
-- A database (e.g., MySQL, PostgreSQL) if not using an embedded database
 
 ## Setup
 1. **Clone the repository**
