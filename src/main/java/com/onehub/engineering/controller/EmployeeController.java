@@ -32,7 +32,7 @@ public class EmployeeController {
         } catch (Exception e) {
             // Handle generic exceptions
             ErrorResponse errorResponse = new ErrorResponse();
-            errorResponse.setMessage("An unexpected error occurred");
+            errorResponse.setMessage(e.getMessage());
             errorResponse.setStatus(HttpStatus.INTERNAL_SERVER_ERROR);
             return new ResponseEntity<>(errorResponse, HttpStatus.INTERNAL_SERVER_ERROR);
         }
