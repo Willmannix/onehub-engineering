@@ -16,7 +16,6 @@ OneHub Engineering is a RESTful API built with Spring Boot. This project serves 
 - Spring Data JPA
 - Lombok
 - JUnit 5
-- Mockito
 - Maven
 
 ## Prerequisites
