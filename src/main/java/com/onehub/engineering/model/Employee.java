@@ -1,10 +1,16 @@
 package com.onehub.engineering.model;
 
+import lombok.*;
+
 import javax.persistence.*;
 import java.time.LocalDate;
 
 @Entity
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Employee {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long employeeNo;
@@ -17,5 +23,4 @@ public class Employee {
     private String email;
     private String address;
 
-    // Getters and setters
 }
